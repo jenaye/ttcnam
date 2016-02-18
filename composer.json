@@ -1,0 +1,13 @@
+{
+    "name": "jenaye/ttcnam",
+    "description": "Projet",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Houziaux",
+            "email": "stahlilistenvoid@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
