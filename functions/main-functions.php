@@ -2,7 +2,7 @@
 // declaration des variables pour se connecter
 $prod = true;
 if($prod){
-	$dbhost = 'mysql.hostinger.fr';
+	$dbhost = 'localhost';
 	$dbname = 'cnam';
 	$dbuser = 'root';
 	$dbpswd = '';
