@@ -1,0 +1,20 @@
+<span id="slider">CLICK</span>
+<br>
+<div id="unBlock">
+    !! BLOCK !!
+</div>
+<script src="js/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+    $('#unBlock').click(function() {
+        $('#unBlock').animate({
+             opacity : 0.2
+             left : '+=20px',
+             fontSize : '+=20px'}, 500, function() {
+        });
+        $('#slider').animate({
+            opacity : 1,
+            height : '+=40px' }, 500, function() {
+
+        });
+ });
+</script>
