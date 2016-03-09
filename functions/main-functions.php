@@ -1,6 +1,6 @@
 <?php
 // declaration des variables pour se connecter
-$prod = true;
+$prod = false;
 if($prod){
 	$dbhost = 'localhost';
 	$dbname = 'cnam';
