@@ -27,11 +27,11 @@
 
 
 
-            $co = '<div class="inline" role="texte-nav-compte"><p class="txtblanc"><a href="index.php?page=profil">'.$_SESSION["name"].'</a><br/><a href="index.php?page=deconnexion">Déconnexion</a></p></div>';
+            $message = '<div class="inline" role="texte-nav-compte"><p class="txtblanc"><a href="index.php?page=profil">'.$_SESSION["name"].'</a><br/><a href="index.php?page=deconnexion">Déconnexion</a></p></div>';
 
 	}else {
 
-            $co = '<div class="inline" role="texte-nav-compte"><p class="txtblanc"><a href="index.php?page=connexion">Connexion</a><br/><a href="index.php?page=inscription">Pas encore inscrit ?</a></p></div>';
+            $message = '<div class="inline" role="texte-nav-compte"><p class="txtblanc"><a href="index.php?page=connexion">Connexion</a><br/><a href="index.php?page=inscription">Pas encore inscrit ?</a></p></div>';
 
         }
     echo $co;
